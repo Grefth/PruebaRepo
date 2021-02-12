@@ -26,6 +26,7 @@ console.log(carros[0]);
 
 
 
-$("#btnInicio").click(function(){
-    $("#texto").text("nuevo texto con JQUERY");
-});
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems);
+  });

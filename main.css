@@ -40,3 +40,10 @@ div.logo {
 div.tarjeta {
     z-index: -10px;
 }
+
+
+#logo{
+    width: 1%;
+    height: 1%;
+
+}
